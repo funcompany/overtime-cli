@@ -9,8 +9,8 @@ const chalk = require('chalk')
 
 const vorpal = require('vorpal')()
 
-const NIGHT_TIME_START = 20
-const NIGHT_TIME_END = 9
+const NIGHT_TIME_START = 18
+const NIGHT_TIME_END = 7
 
 vorpal.command('show [regions...]', 'Generates time overlap table')
   .alias('table')
